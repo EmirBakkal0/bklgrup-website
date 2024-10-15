@@ -1,4 +1,4 @@
-import { Splide, SplideSlide } from '@splidejs/react-splide';
+import { Splide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import CarouselSlide from './CarouselSlide';
 import stockImg1 from "/stock1.jpg"

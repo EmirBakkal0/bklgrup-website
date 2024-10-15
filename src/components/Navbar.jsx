@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from "/logo-no-background.svg"
+import { Link } from 'react-router-dom';
 function Navbar() {
   return (
     <nav
@@ -10,16 +11,16 @@ function Navbar() {
     >
       
 
-      <a href="#" className=" block cursor-pointer">
+      <Link to="/" className=" block cursor-pointer mr-2">
         <img src={Logo}  width="190" alt="BKL GRUP" />
-      </a>
+      </Link>
 
       <div className='flex flex-row'>
-      <a className="hidden sm:block font-bold text-md border-gray-100 shadow-sm rounded-xl p-2"  href="">İlkelerimiz</a>
+      <Link className="font-bold text-md border-gray-100 shadow-sm rounded-xl p-1"  to="/principles">İlkelerimiz</Link>
 
       <a
         href="#footer"
-        className="hidden sm:block font-bold text-md border-gray-100 shadow-sm rounded-xl p-2 mx-2"
+        className=" font-bold text-md border-gray-100 shadow-sm rounded-xl p-1 mx-2"
       >
         İletişim
       </a>
