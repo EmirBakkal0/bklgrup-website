@@ -1,5 +1,5 @@
 import React from 'react'
-import LedapharmaLogo from "/ledapharma_logo.png"
+import Logo from "/logo-no-background.svg"
 function Navbar() {
   return (
     <nav
@@ -11,15 +11,20 @@ function Navbar() {
       
 
       <a href="#" className=" block cursor-pointer">
-        <img src={LedapharmaLogo}  width="190" alt="Ledacity" />
+        <img src={Logo}  width="190" alt="BKL GRUP" />
       </a>
+
+      <div className='flex flex-row'>
+      <a className="hidden sm:block font-bold text-md border-gray-100 shadow-sm rounded-xl p-2"  href="">İlkelerimiz</a>
 
       <a
         href="#footer"
-        className="hidden sm:block font-bold text-md border-gray-100 shadow-sm rounded-xl p-2"
+        className="hidden sm:block font-bold text-md border-gray-100 shadow-sm rounded-xl p-2 mx-2"
       >
-        Bize Ulaşın
+        İletişim
       </a>
+
+      </div>
     </div>
   </nav>
   )

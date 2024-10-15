@@ -2,7 +2,7 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import CarouselSlide from './CarouselSlide';
 import stockImg1 from "/stock1.jpg"
-import stockImg2 from "/stock2.jpg"
+import stockImg2 from "/stock5.jpg"
 import stockImg3 from "/stock3.jpg"
 
 
