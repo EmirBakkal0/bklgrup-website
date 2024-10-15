@@ -20,9 +20,9 @@ export default function App() {
         <Cards />
         <AccordionCustomStyles />
       </section>
+
+
       <Footer />
-
-
       
 
     </div>
