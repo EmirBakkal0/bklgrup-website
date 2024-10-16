@@ -15,11 +15,11 @@ export function Carousel() {
         gap: '1rem',
       }}
     >
-      <CarouselSlide img={stockImg1} header="Leda Yapı" p="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, cumque eveniet vero quam vel pariatur cum maxime saepe nam illum exercitationem rerum omnis. Eaque a dicta repellat expedita possimus, laborum ullam corporis quaerat consequatur assumenda odio consectetur libero harum veritatis.
+      <CarouselSlide img={stockImg1} link="http://www.ledayapi.com" header="Leda Yapı" p="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, cumque eveniet vero quam vel pariatur cum maxime saepe nam illum exercitationem rerum omnis. Eaque a dicta repellat expedita possimus, laborum ullam corporis quaerat consequatur assumenda odio consectetur libero harum veritatis.
 "/>
-      <CarouselSlide img={stockImg2} header="Aksu Arıtma" p="      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae impedit deserunt tempora laborum pariatur culpa! Officiis veniam facilis eum ipsa!
+      <CarouselSlide img={stockImg2}  link="http://www.aksuaritma.com" header="Aksu Arıtma" p="Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae impedit deserunt tempora laborum pariatur culpa! Officiis veniam facilis eum ipsa!
 " />
-      <CarouselSlide img={stockImg3} header="Ledapharma" p="      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae impedit deserunt tempora laborum pariatur culpa! Officiis veniam facilis eum ipsa!
+      <CarouselSlide img={stockImg3}  link="http://www.ledapharma.com" header="Ledapharma" p="Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae impedit deserunt tempora laborum pariatur culpa! Officiis veniam facilis eum ipsa!
 a"/>
     </Splide>
   );

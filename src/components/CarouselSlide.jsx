@@ -24,6 +24,9 @@ function CarouselSlide(props) {
                   <p className="mt-4 text-lg text-gray-300">
                         {props.p}
                   </p>
+                  <button className='cursor-pointer p-2 shadow-lg bg-gray-400 text-white rounded-lg mt-2 bg-opacity-35' onClick={() => window.location.href = props.link}>
+                        Siteye git
+                    </button>
                 </div>
               </div>
 

@@ -52,7 +52,7 @@ export function AccordionCustomStyles() {
          Ledapharma
         </AccordionHeader>
         <AccordionBody className="pt-0 text-base font-normal">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti sequi, dolorem delectus consectetur aperiam, aliquam explicabo blanditiis facilis, vel odit rerum odio tempore.
+        Ledapharma İlaç, gıda takviyeleri üretmek üzere 2015 yılında Levent BAKKAL tarafından kurulmuştur. Merkezi Kocaeli de bulunan firmamız Tavşanlı OSB de bulunan fabrikasında kendi ruhsatlı ürünlerini ve yine sektörde faaliyet gösteren diğer firmalara fason üretim yapmaktadır. Firmamız sıvı dolum hattı, blister hattı, saşe dolum hatları, toz dolum, kapsül hattı ve tablet üretim hatlarıyla faaliyetlerini genişletmiştir. Kozmetik üretimi için arge faaliyleri devam etmekte olup bu çalışmalar sonunda kozmetik üretimine geçilmesi de planlanmaktadır.
         </AccordionBody>
       </Accordion>
     </>
