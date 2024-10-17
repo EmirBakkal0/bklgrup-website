@@ -16,7 +16,7 @@ function Navbar() {
       </Link>
 
       <div className='flex flex-row'>
-      <Link className="font-bold text-md border-gray-100 shadow-sm rounded-xl p-1"  to="/principles">İlkelerimiz</Link>
+      <Link className="font-bold text-md border-gray-100 shadow-sm rounded-xl p-1"  to="/principles">Hakkımızda</Link>
 
       <a
         href="#footer"

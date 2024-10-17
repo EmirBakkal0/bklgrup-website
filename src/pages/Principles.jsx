@@ -10,7 +10,7 @@ function Principles() {
             
             <section className='mx-auto container flex flex-col  pb-5'>
                 <img src={Logo} width={400} alt="logo"  className='self-center my-8' />
-                <h1 className='text-2xl font-bold mb-4 mx-2'> İLKELERİMİZ:</h1>
+                <h1 className='text-2xl font-bold mb-4 mx-2'> VİZYON VE MİSYONUMUZ:</h1>
                 <div className=' px-2'>
                     <h3 className='text-lg font-semibold' >BKL Grup Şirketleri olarak vizyonumuz:</h3>
                     <ul className='list-disc'>
