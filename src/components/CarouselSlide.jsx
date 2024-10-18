@@ -17,16 +17,16 @@ function CarouselSlide(props) {
           <div className="container relative mx-auto">
             <div className=" flex flex-wrap">
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-                <div className="">
-                  <h1 className="text-white font-semibold text-5xl">
+                <div className="bg-gray-700 bg-opacity-55 rounded-md px-3 py-2">
+                  <h1 className="text-white font-semibold text-3xl md:text-4xl">
                     {props.header}
                   </h1>
-                  <p className="mt-4 text-lg text-gray-300">
+                  <p className="mt-4 text-md md:text-lg text-gray-300 ">
                         {props.p}
                   </p>
-                  <button className='cursor-pointer p-2 shadow-lg bg-gray-400 text-white rounded-lg mt-2 bg-opacity-35' onClick={() => window.location.href = props.link}>
+                  {/* <button className='cursor-pointer p-2 shadow-lg bg-gray-400 text-white rounded-lg mt-2 bg-opacity-35' onClick={() => window.location.href = props.link}>
                         Siteye git
-                    </button>
+                    </button> */}
                 </div>
               </div>
 

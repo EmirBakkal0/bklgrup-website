@@ -4,55 +4,54 @@ import {
   AccordionHeader,
   AccordionBody,
 } from "@material-tailwind/react";
- 
+
 export function AccordionCustomStyles() {
   const [open, setOpen] = React.useState(1);
- 
+
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
- 
+
   return (
     <>
       <Accordion open={open === 1} className="mb-2 rounded-lg border border-blue-gray-100 px-4">
         <AccordionHeader
           onClick={() => handleOpen(1)}
-          className={`border-b-0 transition-colors ${
-            open === 1 ? "text-blue-500 hover:!text-blue-700" : ""
-          }`}
+          className={`border-b-0 transition-colors ${open === 1 ? "text-blue-500 hover:!text-blue-700" : ""
+            }`}
         >
           Leda Yapı
         </AccordionHeader>
         <AccordionBody className="pt-0 text-base font-normal">
-          We&apos;re not always in the position that we want to be at. We&apos;re constantly
-          growing. We&apos;re constantly making mistakes. We&apos;re constantly trying to express
-          ourselves and actualize our dreams.
+          İnşaat Grubumuz 2007 yılından bu yana sektördeki deneyimi ve uzman kadrosuyla, modern yaşamın ihtiyaçlarına uygun, estetik ve kaliteli konut projeleri üretmektedir.
+          Kurulduğu günden bu yana, yenilikçi yaklaşımıyla dikkat çeken şirketimiz, sürdürülebilirlik ilkesini benimseyerek çevreye duyarlı projeler geliştirmektedir.
+          Projelerine yurt içi ve yurt dışı olarak devam etmektedir.
+
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 2} className="mb-2 rounded-lg border border-blue-gray-100 px-4">
         <AccordionHeader
           onClick={() => handleOpen(2)}
-          className={`border-b-0 transition-colors ${
-            open === 2 ? "text-blue-500 hover:!text-blue-700" : ""
-          }`}
+          className={`border-b-0 transition-colors ${open === 2 ? "text-blue-500 hover:!text-blue-700" : ""
+            }`}
         >
-          Aksu Arıtma
+          Ledapharma
         </AccordionHeader>
         <AccordionBody className="pt-0 text-base font-normal">
-          We&apos;re not always in the position that we want to be at. We&apos;re constantly
-          growing. We&apos;re constantly making mistakes. We&apos;re constantly trying to express
-          ourselves and actualize our dreams.
+          Sağlık Grubumuz İlaç, Gıda takviyeleri ve Kozmetik üretmek üzere 2015 yılında faaliyetine başlamıştır. Sağlıklı nesil yetişmesi ve sürdürülebilirliği üzerine çalışmalar yaparak başta ülkemiz olmak üzere dünya genelinde 23 ülkeye ihracat yaparak hizmet ağını genişletmiştir.
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 3} className="rounded-lg border border-blue-gray-100 px-4">
         <AccordionHeader
           onClick={() => handleOpen(3)}
-          className={`border-b-0 transition-colors ${
-            open === 3 ? "text-blue-500 hover:!text-blue-700" : ""
-          }`}
+          className={`border-b-0 transition-colors ${open === 3 ? "text-blue-500 hover:!text-blue-700" : ""
+            }`}
         >
-         Ledapharma
+          Aksu Arıtma
         </AccordionHeader>
+
         <AccordionBody className="pt-0 text-base font-normal">
-        Ledapharma İlaç, gıda takviyeleri üretmek üzere 2015 yılında Levent BAKKAL tarafından kurulmuştur. Merkezi Kocaeli de bulunan firmamız Tavşanlı OSB de bulunan fabrikasında kendi ruhsatlı ürünlerini ve yine sektörde faaliyet gösteren diğer firmalara fason üretim yapmaktadır. Firmamız sıvı dolum hattı, blister hattı, saşe dolum hatları, toz dolum, kapsül hattı ve tablet üretim hatlarıyla faaliyetlerini genişletmiştir. Kozmetik üretimi için arge faaliyleri devam etmekte olup bu çalışmalar sonunda kozmetik üretimine geçilmesi de planlanmaktadır.
+          Arıtma Grubu gerek TÜRKİYE gerekse YURTDIŞINDA çalışmayı ve uluslar arası perspektifi yakalamayı amaç edinmiştir. Bu gerekçe ile 2010 yılından itibaren Türkiye de Belediyeler, İller Bankası, DSİ ve Özel Sektör alanında onlarca projeyi tamamlamıştır.
+          Uluslararası alanda IRAK, AFGANİSTAN, ÜRDÜN, KOSOVA, GÜRCİSTAN, MAKEDONYA ve BULGARİSTAN’da faaliyet göstermektedir.
+
         </AccordionBody>
       </Accordion>
     </>

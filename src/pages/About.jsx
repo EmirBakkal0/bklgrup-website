@@ -1,16 +1,17 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import Logo from "/logo-no-background.svg"
 
-function Principles() {
+import { Carousel } from '../components/Carousel'
+function About() {
     return (
         <div>
             <Navbar />
-            
+
+
+            <Carousel/>
             <section className='mx-auto container flex flex-col  pb-5'>
-                <img src={Logo} width={400} alt="logo"  className='self-center my-8' />
-                <h1 className='text-2xl font-bold mb-4 mx-2'> VİZYON VE MİSYONUMUZ:</h1>
+                <h1 className='text-2xl font-bold my-4 mx-2'> VİZYON VE MİSYONUMUZ:</h1>
                 <div className=' px-2'>
                     <h3 className='text-lg font-semibold' >BKL Grup Şirketleri olarak vizyonumuz:</h3>
                     <ul className='list-disc'>
@@ -42,4 +43,4 @@ function Principles() {
     )
 }
 
-export default Principles
+export default About

@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from "/logo-no-background.svg"
+import Logo from "/BKL-GRUP-logo.png"
 import { Link } from 'react-router-dom';
 function Navbar() {
   return (
@@ -11,12 +11,12 @@ function Navbar() {
     >
       
 
-      <Link to="/" className=" block cursor-pointer mr-2">
-        <img src={Logo}  width="190" alt="BKL GRUP" />
+      <Link to="/" className="   cursor-pointer mr-2">
+        <img src={Logo}  width="100" alt="BKL GRUP" />
       </Link>
 
       <div className='flex flex-row'>
-      <Link className="font-bold text-md border-gray-100 shadow-sm rounded-xl p-1"  to="/principles">Hakkımızda</Link>
+      <Link className="font-bold text-md border-gray-100 shadow-sm rounded-xl p-1"  to="/about">Hakkımızda</Link>
 
       <a
         href="#footer"

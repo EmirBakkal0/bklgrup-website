@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Home from './pages/Home.jsx'
-import Principles from './pages/Principles.jsx'
+import About from './pages/About.jsx'
 import { ErrorPage } from './pages/ErrorPage.jsx'
 
 import './index.css'
@@ -17,8 +17,8 @@ const router = createBrowserRouter([
     
   },
   {
-    path: "principles",
-    element: <Principles />,
+    path: "about",
+    element: <About />,
     errorElement: <ErrorPage/>,
     
   },
