@@ -4,6 +4,7 @@ http://bklgrup.com
 ![image](https://github.com/user-attachments/assets/edd69307-0b2c-4bf8-ba8d-4478998793c1)
 
 splide.js is used for carousel part
+
 the card is from Uiverse.io by gharsh11032000 
 
 # React + Vite
