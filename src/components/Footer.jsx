@@ -31,6 +31,34 @@ function Footer() {
 
             <li className="flex flex-row">
               <img
+                src="icons/phone-calling-svgrepo-com.svg"
+                alt="phone icon"
+                width="15px"
+                className="mr-1"
+              />
+              <a href="tel:+90 850 532 01 59">0 850 532 01 59</a>
+            </li>
+            <li className="flex flex-row">
+              <img
+                src="icons/phone-calling-svgrepo-com.svg"
+                alt="phone icon"
+                width="15px"
+                className="mr-1"
+              />
+              <a href="tel:+90 850 473 05 06">0 850 473 05 06</a>
+            </li>
+            <li className="flex flex-row">
+              <img
+                src="icons/fax-svgrepo-com.svg"
+                alt="phone icon"
+                width="15px"
+                className="mr-1"
+              />
+              <a href="fax:+90 262 335 04 10  ">Fax: 0 262 335 04 10</a>
+            </li>
+
+            <li className="flex flex-row">
+              <img
                 src="/icons/mail-svgrepo-com.svg"
                 alt="mail icon"
                 width="15px"
@@ -38,7 +66,6 @@ function Footer() {
               />
               <a href="mailto:info@bklgrup.com"> info@bklgrup.com </a>
             </li>
-
 
           </ul>
         </address>
