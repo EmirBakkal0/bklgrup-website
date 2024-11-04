@@ -29,7 +29,7 @@ function Card(props) {
             <div className='flex justify-center mb-5'>
 
 
-                <button className='cursor-pointer p-2  bg-gradient-to-br from-[#fc00ff] to-[#00dbde] hover:bg-gradient-to-tr from-[#fc00ff] to-[#00dbde] text-white rounded-lg mt-2 bg-opacity-35 shadow-xl' onClick={() => window.location.href = props.link}>
+                <button className='cursor-pointer p-2  bg-gradient-to-br from-[#fc00ff] to-[#00dbde] text-white rounded-lg mt-2 bg-opacity-35 shadow-xl' onClick={() => window.location.href = props.link}>
                    
                     Siteye git
                 </button>
